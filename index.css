@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.sidenav {
+  width: 210px;
+  height: 88%;
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  left: 0px;
+  background: rgb(204, 224, 224);
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.active{
+  color: orange;
+}
+.error{
+  color: red;
+}
+.success{
+  color: green;
+}
+.carousel-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh; /* Set a fixed height for the container */
+}
+
+.carousel-image-container image {
+  max-width: 100%; /* Make sure the image fits within the container */
+  max-height: 100%;
+  width: auto;
+}

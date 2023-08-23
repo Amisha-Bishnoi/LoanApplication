@@ -1,0 +1,13 @@
+.carousel-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh; /* Set a fixed height for the container */
+  }
+  
+  .carousel-image {
+    max-width: 100%; /* Make sure the image width fits within the container */
+    max-height: 100%; /* Make sure the image height fits within the container */
+    width: auto; /* Ensure the image maintains its aspect ratio */
+  }
+                   
